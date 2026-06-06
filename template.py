@@ -1,6 +1,7 @@
 import os
 from pathlib import Path
 import logging
+import pandas
 
 logging.basicConfig(level=logging.INFO,format="[ %(asctime)s ] %(lineno)d %(name)s - %(levelname)s - %(message)s")
 
